@@ -1,0 +1,96 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #020107;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+header {
+    width: 100%;
+    background-image: url('../img/header_bg_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 25px 20px 20px;
+    box-sizing: border-box;
+    font-family: "HindVadodara-Medium";
+    height: 1000px;
+}
+
+#in_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_menu {
+    color: white;
+    display: flex;
+    list-style-type: none;
+    cursor: default;
+    font-size: 22px;
+}
+
+#header_menu > a {
+    cursor: pointer;
+}
+
+#header_menu > a:hover {
+    opacity: 0.5;
+}
+
+#header_logo {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: default;
+    font-family: Verdana;
+}
+
+#header_about {
+    width: 100%;
+    display: flex;
+    padding: 200px 0 0 12.25%;
+}
+
+#in_header_about {
+    color: white;
+    font-size: 35px;
+    width: 500px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#header_sign_btn {
+    width: 500px;
+    height: 50px;
+    background: #40e1b9;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s;
+    font-family: Verdana;
+    margin-top: 40px;
+}
+
+#header_sign_btn:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(168, 165, 165);
+}

@@ -1,0 +1,25 @@
+main {
+    padding: 0 20px 20px 20px;
+}
+
+.main_about_site_card {
+    padding: 50px;
+    color: rgba(200, 200, 200, .9);
+    height: 240px;
+    font-family: "HindVadodara-Medium";
+}
+
+.main_about_site_card_desc > img {
+    width: 30%;
+    height: 250px;
+}
+
+.main_about_site_card_desc {
+    display: flex;
+    font-size: 20px;
+}
+
+.main_about_site_card_desc > span > h3{
+    /* margin-top: -10px; */
+    color: #ffffff;
+}
